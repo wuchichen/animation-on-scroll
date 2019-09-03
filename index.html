@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Painting Gallery</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1><span>My Painting</span> Gallery </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ipsum?</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="img/img-1.jpg" alt="fruit image">
+            <div>
+                <h3>Fruit One</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore labore deserunt nam ad odit
+                    distinctio
+                    id perferendis magni! Repellat quisquam itaque natus minus rem excepturi voluptate consectetur
+                    quo
+                    nisi
+                    vitae.</p>
+                <a class="my-btn" href="#">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="img/img-2.jpg" alt="fruit image">
+            <div>
+                <h3>Fruit Two</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore labore deserunt nam ad odit
+                    distinctio
+                    id perferendis magni! Repellat quisquam itaque natus minus rem excepturi voluptate consectetur
+                    quo
+                    nisi
+                    vitae.</p>
+                <a class="my-btn" href="#">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="img/img-3.jpg" alt="fruit image">
+            <div>
+                <h3>Fruit Three</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore labore deserunt nam ad odit
+                    distinctio
+                    id perferendis magni! Repellat quisquam itaque natus minus rem excepturi voluptate consectetur
+                    quo
+                    nisi
+                    vitae.</p>
+                <a class="my-btn" href="#">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="img/img-4.jpg" alt="fruit image">
+            <div>
+                <h3>Fruit Four</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore labore deserunt nam ad odit
+                    distinctio
+                    id perferendis magni! Repellat quisquam itaque natus minus rem excepturi voluptate consectetur
+                    quo
+                    nisi
+                    vitae.</p>
+                <a class="my-btn" href="#">Buy Now</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- animation on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>

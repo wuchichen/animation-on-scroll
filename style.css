@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size:16px;
+    background-color:#F8F8F8;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(23, 133, 184);
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+    overflow:visible;
+    padding:0 60px 0 60px;
+}
+
+.main-header{
+    padding:50px 0 50px 0;
+    text-align:center;
+}
+
+.main-header h1{
+    font-size:60px;
+    margin:0 0 20px 0;
+}
+
+.main-header span{
+    color:#b50D0D;
+}
+
+.card{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:50px;
+    background-color:#F1F1F1;
+    margin:0 0 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h3{
+    margin:0 0 10px 0;
+}
+
+.card img{
+    width:300px;
+}
+
+.card > div{
+    padding:10px;
+}
+
+/* .card:nth-child(even) img{
+    order:2;
+} */
+
+.my-btn{
+    display:inline-block;
+    background:#1e1e1e;
+    color:#FFF;
+    padding:5px 15px;
+    margin:15px 0 15px 0;
+}
+
+.my-btn:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+
+/* The @media rule is used in media queries to apply different styles for different media types/devices. */
+@media only screen and (max-width: 700px){
+    .card{
+        display:block;
+    }
+}
+
+
